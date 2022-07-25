@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2022 at 06:39 PM
+-- Generation Time: Jul 25, 2022 at 02:06 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.24
 
@@ -52,9 +52,9 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `slug`, `name`, `status`, `title`, `description`, `name_vi`, `name_en`, `name_cn`, `name_fr`, `icon_web`, `icon`, `brand_ids`, `banner`, `language`, `created_at`, `updated_at`) VALUES
-(1, 'danh-muc-1', 'danh-muc-1', 1, 'Danh mục 1', 'Đây là danh mục số 1', NULL, NULL, NULL, NULL, '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', 'danh-muc', 'danh-muc', '[{\'vi\':1},{\'ja\':1}]', '2002-07-22 10:00:00', '2002-07-22 10:00:00'),
-(2, 'danh-muc-2', 'danh-muc-2', 1, 'Danh mục 2', 'Đây là danh mục số 2', NULL, NULL, NULL, NULL, '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', 'danh-muc', 'danh-muc', '[{\'vi\':1},{\'ja\':1}]', '2002-07-22 10:00:00', '2002-07-22 10:00:00'),
-(3, 'danh-muc-3', 'danh-muc-3', 1, 'Danh mục 3', 'Đây là danh mục số 2', NULL, NULL, NULL, NULL, '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', 'danh-muc', 'danh-muc', '[{\'vi\':1},{\'ja\':1}]', '2002-07-22 10:00:00', '2002-07-22 10:00:00');
+(1, 'danh-muc-1', 'danh-muc-1', 1, 'Danh mục 1', 'Đây là danh mục số 1', NULL, NULL, NULL, NULL, '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', 'danh-muc', 'danh-muc', 'vi', '2002-07-22 10:00:00', '2002-07-22 10:00:00'),
+(2, 'danh-muc-2', 'danh-muc-2', 1, 'Danh mục 2', 'Đây là danh mục số 2', NULL, NULL, NULL, NULL, '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', 'danh-muc', 'danh-muc', 'vi, ja', '2002-07-22 10:00:00', '2002-07-22 10:00:00'),
+(3, 'danh-muc-3', 'danh-muc-3', 1, 'Danh mục 3', 'Đây là danh mục số 2', NULL, NULL, NULL, NULL, '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', '<i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i>', 'danh-muc', 'danh-muc', 'vi, ja', '2002-07-22 10:00:00', '2002-07-22 10:00:00');
 
 --
 -- Indexes for dumped tables
