@@ -32,38 +32,18 @@
                     <!-- Left Side Of Navbar -->
                     
                     <ul class="navbar-nav me-auto">
-                        @if (isset($model))
-                            @foreach ($model as $item)
-                                
-
-
+                        @if (isset($data))
+                            @foreach ($data as $item)
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">{{ isset($item['title']) ? $item['title'] : ''}}</a>
                                 </li>
                             @endforeach
                         @endif
-
-                        
                     </ul>
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <select name="language" id="language">
-                                <option value="vi">Tiếng việt</option>
-                                <option value="ja">Tiếng nhật</option>
-                            </select>
+                            Ngôn ngữ hiện tại: ({{app()->getLocale()}})
                         </li>
-                    </ul>
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Authentication Links -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">{{ __('Login') }}</a>
-                        </li>
-                          
-                        <li class="nav-item">
-                            <a class="nav-link" href="">{{ __('Register') }}</a>
-                        </li>
-                   
                     </ul>
                 </div>
             </div>
